@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrador\\Documents\\GitHub\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj": {}
+    "C:\\Users\\chris\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrador\\Documents\\GitHub\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj": {
+    "C:\\Users\\chris\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\GitHub\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj",
+        "projectUniqueName": "C:\\Users\\chris\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj",
         "projectName": "Proyecto_Redis",
-        "projectPath": "C:\\Users\\Administrador\\Documents\\GitHub\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj",
-        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrador\\Documents\\GitHub\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\obj\\",
+        "projectPath": "C:\\Users\\chris\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj",
+        "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chris\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +64,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
