@@ -55,6 +55,7 @@
             this.label1.Size = new System.Drawing.Size(419, 106);
             this.label1.TabIndex = 0;
             this.label1.Text = "REDISHOP";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Monitores
             // 
