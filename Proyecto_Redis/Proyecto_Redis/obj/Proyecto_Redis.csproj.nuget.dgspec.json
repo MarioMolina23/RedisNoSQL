@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Varga\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj": {}
+    "C:\\Users\\bmasi\\Source\\Repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Varga\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj": {
+    "C:\\Users\\bmasi\\Source\\Repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Varga\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj",
+        "projectUniqueName": "C:\\Users\\bmasi\\Source\\Repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj",
         "projectName": "Proyecto_Redis",
-        "projectPath": "C:\\Users\\Varga\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj",
-        "packagesPath": "C:\\Users\\Varga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Varga\\source\\repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\obj\\",
+        "projectPath": "C:\\Users\\bmasi\\Source\\Repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\Proyecto_Redis.csproj",
+        "packagesPath": "C:\\Users\\bmasi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bmasi\\Source\\Repos\\RedisNoSQL\\Proyecto_Redis\\Proyecto_Redis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Varga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\bmasi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

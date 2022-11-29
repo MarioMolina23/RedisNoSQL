@@ -174,5 +174,30 @@ namespace Proyecto_Redis
         {
 
         }
+
+        private void textBoxModelo_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxColor_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxAlmacenamiento_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxPrecio_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxMarca_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

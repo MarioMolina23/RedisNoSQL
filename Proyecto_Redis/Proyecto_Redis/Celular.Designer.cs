@@ -149,6 +149,7 @@
             this.textBoxModelo.Name = "textBoxModelo";
             this.textBoxModelo.Size = new System.Drawing.Size(247, 23);
             this.textBoxModelo.TabIndex = 0;
+            this.textBoxModelo.TextChanged += new System.EventHandler(this.textBoxModelo_TextChanged_1);
             // 
             // textBoxMarca
             // 
@@ -157,6 +158,7 @@
             this.textBoxMarca.Name = "textBoxMarca";
             this.textBoxMarca.Size = new System.Drawing.Size(247, 23);
             this.textBoxMarca.TabIndex = 1;
+            this.textBoxMarca.TextChanged += new System.EventHandler(this.textBoxMarca_TextChanged_1);
             // 
             // label3
             // 
@@ -174,6 +176,7 @@
             this.textBoxPrecio.Name = "textBoxPrecio";
             this.textBoxPrecio.Size = new System.Drawing.Size(247, 23);
             this.textBoxPrecio.TabIndex = 2;
+            this.textBoxPrecio.TextChanged += new System.EventHandler(this.textBoxPrecio_TextChanged_1);
             // 
             // label4
             // 
@@ -191,6 +194,7 @@
             this.textBoxAlmacenamiento.Name = "textBoxAlmacenamiento";
             this.textBoxAlmacenamiento.Size = new System.Drawing.Size(247, 23);
             this.textBoxAlmacenamiento.TabIndex = 3;
+            this.textBoxAlmacenamiento.TextChanged += new System.EventHandler(this.textBoxAlmacenamiento_TextChanged_1);
             // 
             // label5
             // 
@@ -208,6 +212,7 @@
             this.textBoxColor.Name = "textBoxColor";
             this.textBoxColor.Size = new System.Drawing.Size(247, 23);
             this.textBoxColor.TabIndex = 4;
+            this.textBoxColor.TextChanged += new System.EventHandler(this.textBoxColor_TextChanged_1);
             // 
             // label6
             // 
