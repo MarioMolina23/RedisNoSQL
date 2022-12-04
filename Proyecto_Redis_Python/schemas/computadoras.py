@@ -4,7 +4,7 @@ from datetime import datetime
 
 #genera ID automatico
 def generate_uuid():
-    return str(uuid4())
+    return str(f'computadoras{uuid4()}')
 
 #genera fecha
 def generate_date():
