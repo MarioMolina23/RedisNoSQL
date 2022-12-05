@@ -241,19 +241,19 @@ def delete_hashparla(key: str, keys: list):
 
 #--------------------SILLAS GAMERS---------------------------#
 
-def save_hashsillag(key: str, data: dict):
+def save_hashsillas_g(key: str, data: dict):
     try:
         redis_client.hset(name=key, mapping=data)
     except ResponseError as e:
         print(e)
 
-def get_hashsillag(key: str):
+def get_hashsillas_g(key: str):
     try:
         return redis_client.hgetall(name=key)
     except ResponseError as e:
         print(e)
 
-def get_hashAllsillag():
+def get_hashAllsillas_g():
     try:
         datos = []
         keys = redis_client.keys(pattern="sillas_gamers*")
@@ -265,10 +265,10 @@ def get_hashAllsillag():
     except ResponseError as e:
         print(e)
 
-def delete_hashsillag(key: str, keys: list):
+def delete_hashsillas_g(key: str, keys: list):
     
     #keys son los que queremos eliminar
     try:
         redis_client.hdel(key, *keys)
     except ResponseError as e:
-        print(e)        
+        print(e)

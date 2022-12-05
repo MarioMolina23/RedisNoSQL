@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from redis_client.crud import delete_hashmonit, get_hashmonit, save_hashAllmonit, save_hashmonit #Se importa en el FastAPi la clase llamada router
+from redis_client.crud import delete_hashmonit, get_hashmonit, save_hashmonit, save_hashmonit #Se importa en el FastAPi la clase llamada router
 from schemas.monitores import monitores #importa routes computadoras
 
 
