@@ -14,4 +14,4 @@ Ver video: https://www.youtube.com/watch?v=2kLYOzNb3uU -----> Tutorial para acti
 4. Se inicia el video
 
 Nota: Para conectarse al interfaz SWAGGER, ver minuto dos del video
-Comando en terminal ----> uvicorn main:app --reload
+Comando en terminal ---->       uvicorn main:app --reload --env-file=.env
